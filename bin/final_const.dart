@@ -20,6 +20,7 @@ void main(List<String> args) {
 
 class RegularClass{
   final int number;
+  static const myConst = 10;
   RegularClass({this.number = 0});
 }
 
