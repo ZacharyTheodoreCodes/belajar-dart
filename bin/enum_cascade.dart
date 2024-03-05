@@ -1,8 +1,8 @@
 /**
  * enum : pake enum di depannya
- * cascade : 
  */
 
+//cascade: ..
 void main(List<String> args) {
   MonsterUcoa m = MonsterUcoa(status: UcoaStatus.confused);
   m
