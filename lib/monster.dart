@@ -7,3 +7,4 @@ abstract class Monster extends Character {
 //abstract
 String move();
 }
+
