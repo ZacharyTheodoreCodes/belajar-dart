@@ -10,8 +10,10 @@ import 'dart:async';
 void main(List<String> args) async {
   User user = User();
   UserManager userManager = UserManager(FirebaseStorage());
+  UserManager userManager2 = UserManager(LocalStorage());
 
   print(await userManager.getUserAge(user));
+  print (await userManager2.getUserAge(user));
 }
 
 
@@ -45,7 +47,7 @@ class FirebaseStorage implements IDDataStorage{
 
   @override
   FutureOr<int> getUserAge(User user) async{
-    await Future.delayed(Duration(seconds: 1));
+    await Future.delayed(Duration(seconds: 2));
     return 20;
   }
 }
