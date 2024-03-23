@@ -1,0 +1,13 @@
+Extends, with (Mixin), and Inherit
+Extends:
+-subclass yang inherit property dan method dari superclass
+-use override 
+-access superclass: pakai 'super' keyword
+-Cuma bisa extend dari 1 superclass
+
+With:
+-Untuk mixins, sebuah class bisa pakai functionality dari satu atau lebih mixins
+
+Implements:
+-Untuk interface: artinya sebuah class harus provide implementsi semua method yang ada di interface.
+
